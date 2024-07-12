@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+plotly
+google
+PyPDF2
+docx
+dotenv

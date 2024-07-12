@@ -1,0 +1,36 @@
+
+              body {
+                font-family: Arial, sans-serif;
+                margin: 15;
+                padding: 1px;
+              }
+              
+
+              
+              table {
+                width: 1;
+                border-collapse: collapse;
+              }
+              
+              th, td {
+                background: #e8e4e4;
+                padding: 5px;
+                width: 30px;
+                max-height: 5px;
+                border: 1.2px solid #080101;
+                text-align: top;
+              }
+              
+              th {
+                background-color: #5e8909;
+                padding: 5px;
+                border-color: black;
+                border-width: 1px;
+              }
+              
+
+/* div.row_heading level0 row1 st-emotion-cache-fwan7u e1q9reml1{
+    background-color: aqua;
+
+
+} */
