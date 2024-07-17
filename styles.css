@@ -1,4 +1,4 @@
-
+/* 
               body {
                 font-family: Arial, sans-serif;
                 margin: 15;
@@ -10,14 +10,14 @@
               table {
                 width: 1;
                 border-collapse: collapse;
-              }
+              } */
               
-              th, td {
+              /* th, td {
                 background: #e8e4e4;
                 padding: 5px;
                 width: 30px;
                 max-height: 5px;
-                border: 1.2px solid #080101;
+                border: 1.4px solid #080101;
                 text-align: top;
               }
               
@@ -26,11 +26,46 @@
                 padding: 5px;
                 border-color: black;
                 border-width: 1px;
+              } */
+              td {
+                max-width: 0px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color:black;
+                background-color: beige;
+                border-radius: 5px;
+
               }
+              th {
+                background-color: lightseagreen;
+                font-weight: bold;
+              }
+              /* table {
+                table-layout:auto;
+              } */
+              table {width: 40%;
+                border-radius: 5px;
+              }
+              td.column_a {width: 50%;}
+              td.column_b {width: 50%;}
+
+
               
 
-/* div.row_heading level0 row1 st-emotion-cache-fwan7u e1q9reml1{
+/* th row_heading level0 row1 st-emotion-cache-fwan7u e1q9reml1{
     background-color: aqua;
 
 
 } */
+/* <table border="0">
+   <tr style="height:2px;" >
+    <td width="10px"><hr style="padding:0px; margin:0px;"></td>
+  </tr>
+<tr style="height:20px;" >
+    <td width="10px">Hello</td>
+  </tr>
+  <tr style="height:2px;" >
+    <td width="10px"><hr style="padding:0px; margin:0px;"></td>
+  </tr>
+</table> */
